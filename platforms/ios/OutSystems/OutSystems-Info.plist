@@ -89,7 +89,7 @@
 	<key>Pushwoosh_DEBUG</key>
 	<false/>
 	<key>Pushwoosh_SHOW_ALERT</key>
-	<true/>
+	<false/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>OpenSans-Bold.ttf</string>

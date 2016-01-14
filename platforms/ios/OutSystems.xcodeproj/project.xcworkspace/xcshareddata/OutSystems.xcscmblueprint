@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2242A593F3CB89032C73E6A7D53465CC4C25CAA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0D6283A18F066733D61A0569FDFCD5E0822F8C75" : 0,
+    "2242A593F3CB89032C73E6A7D53465CC4C25CAA9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1156D934-98FA-40A5-9188-3E011B1160F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0D6283A18F066733D61A0569FDFCD5E0822F8C75" : "OutSystemsNow-iOS",
+    "2242A593F3CB89032C73E6A7D53465CC4C25CAA9" : "DNAMobile-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OutSystems",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/OutSystems.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/OutSystems\/OutSystemsNow-iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D6283A18F066733D61A0569FDFCD5E0822F8C75"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SC-Dev\/DNAMobile-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2242A593F3CB89032C73E6A7D53465CC4C25CAA9"
+    }
+  ]
+}

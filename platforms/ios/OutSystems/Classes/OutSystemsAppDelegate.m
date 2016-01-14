@@ -53,7 +53,7 @@ static DeepLink *deepLinkSettings;
 
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
-    [[PushNotificationManager pushManager] handlePushReceived:userInfo];
+    //[[PushNotificationManager pushManager] handlePushReceived:userInfo];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -100,17 +100,17 @@ static DeepLink *deepLinkSettings;
     // Setup Pushwoosh
     
     // set custom delegate for push handling, in our case - view controller
-    PushNotificationManager * pushManager = [PushNotificationManager pushManager];
-    pushManager.delegate = self;
+    //PushNotificationManager * pushManager = [PushNotificationManager pushManager];
+    //pushManager.delegate = self;
     
     // handling push on app start
-    [[PushNotificationManager pushManager] handlePushReceived:launchOptions];
+    //[[PushNotificationManager pushManager] handlePushReceived:launchOptions];
     
     // make sure we count app open in Pushwoosh stats
-    [[PushNotificationManager pushManager] sendAppOpen];
+    //[[PushNotificationManager pushManager] sendAppOpen];
     
     // register for push notifications!
-    [[PushNotificationManager pushManager] registerForPushNotifications];
+    //[[PushNotificationManager pushManager] registerForPushNotifications];
     
     
     // Setup application cache
@@ -173,7 +173,7 @@ static DeepLink *deepLinkSettings;
 }
 
 -(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-    [[PushNotificationManager pushManager] handlePushRegistration:deviceToken];
+   // [[PushNotificationManager pushManager] handlePushRegistration:deviceToken];
     
     deviceId = deviceToken;
     
@@ -195,12 +195,12 @@ static DeepLink *deepLinkSettings;
 }
 
 -(void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
-    [[PushNotificationManager pushManager] handlePushRegistrationFailure:error];
+//    [[PushNotificationManager pushManager] handlePushRegistrationFailure:error];
     NSLog(@"Failed to get token, error: %@", error);
 }
 
 
-- (void) onPushAccepted:(PushNotificationManager *)pushManager withNotification:(NSDictionary *)pushNotification {
+/* - (void) onPushAccepted:(PushNotificationManager *)pushManager withNotification:(NSDictionary *)pushNotification {
     NSLog(@"Push notification received");
     
     NSMutableDictionary *remoteNotificationInfo = nil;
@@ -289,8 +289,8 @@ static DeepLink *deepLinkSettings;
         }
         
     }
-    
-}
+ 
+}*/
 
 - (void)saveContext
 {
